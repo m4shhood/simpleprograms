@@ -1,7 +1,8 @@
+#include<stdio.h>
 int main()
 {
    char str[1000], ch
-   int i, frequency = 0
+   int i, frequency = 0;
    print("Enter a string: ");
    gets(str);
    printf("Enter a character to find the frequency: ");
