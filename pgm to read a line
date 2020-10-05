@@ -2,12 +2,12 @@
 #include <stdlib.h>
 int main()
 {
-    char c[1000]
+    char c[1000];
     FILE *fptr;
     if ((fptr = fopen("program.txt", "r")) == NULL)
     {
-        print("Error! opening file")
-        exit(1)      
+        print("Error! opening file");
+        exit(1);     
     }
    
     scanf(fptr,"%[^\n]", c);
